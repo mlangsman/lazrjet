@@ -1,0 +1,60 @@
+
+
+.post-header img {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#primary-column {
+	padding-top: 100px;
+	padding-right: 40px;
+	/* background-color: green; */
+	border-right: 1px dotted grey;
+}
+
+#sidebar {
+	padding-top: 60px;
+}
+
+h1 {
+  font-family: "atrament-web","atrament";
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+p {
+	font-family: "open-sans","Open Sans";
+	font-size: 1.125rem;
+}
+
+nav {
+	font-family: "atrament-web","atrament";
+ 	font-size: 0.9375rem;
+ 	background: white;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px; 
+
+}
+
+.date
+{
+	font-family: "open-sans";
+	font-size: 0.8125rem;
+}
+
+blockquote {
+	border: none !important;
+}
+blockquote p {
+	font-family: "atrament-web","atrament";
+ 	font-size: 2.125rem;
+ 	font-style: italic;
+ 	font-weight: 800;
+
+}
+
+#footer {
+	margin-top: 100px;
+	background-image: url("../img/footer@2x.jpg");
+	height: 132px;
+}
