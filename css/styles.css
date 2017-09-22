@@ -8,15 +8,21 @@ body, .navbar-light {
 	margin-bottom: 40px;
 }
 
-#primary-column {
+#main-container
+{
 	padding-top: 200px;
+	padding-left: 60px;
+}
+
+#primary-column {
+
 	padding-right: 40px;
 	/* background-color: green; */
 	border-right: 1px dotted grey;
 }
 
 #sidebar {
-	padding-top: 200px;
+
 }
 
 h1 {
@@ -62,13 +68,24 @@ blockquote p {
 	padding-left: 40px;
 }
 
-nav a.nav-link
+nav .nav-item
 {
 	margin-right: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
 
+}
 
+
+
+.navbar .navbar-nav
+{
+	padding-bottom: 30px;
+}
+
+.navbar .nav-link.selected
+{
+	border-bottom: 2px solid #D20298;
 }
 
 #footer {
