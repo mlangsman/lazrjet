@@ -1,4 +1,7 @@
 
+body, .navbar-light {
+	color: #343434 !important;
+}
 
 .post-header img {
 	margin-top: 30px;
@@ -6,14 +9,14 @@
 }
 
 #primary-column {
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-right: 40px;
 	/* background-color: green; */
 	border-right: 1px dotted grey;
 }
 
 #sidebar {
-	padding-top: 60px;
+	padding-top: 200px;
 }
 
 h1 {
@@ -50,6 +53,21 @@ blockquote p {
  	font-size: 2.125rem;
  	font-style: italic;
  	font-weight: 800;
+
+}
+
+.navbar
+{
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+nav a.nav-link
+{
+	margin-right: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+
 
 }
 
