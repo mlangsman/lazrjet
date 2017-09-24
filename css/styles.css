@@ -30,6 +30,21 @@ body, .navbar-light {
 #sidebar {
 	padding-top: 0px;
 	padding-left: 40px;
+	padding-right: 0px;
+
+}
+
+#sidebar .avatar-container
+{
+	text-align: right;
+}
+
+#sidebar img.avatar-image
+{
+	/* float: right;*/
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
 }
 
 h1 {
