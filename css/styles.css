@@ -88,6 +88,7 @@ blockquote p {
 {
 	padding-top: 50px;
 	padding-left: 40px;
+	padding-right: 0px;
 }
 
 nav .nav-item
@@ -98,6 +99,19 @@ nav .nav-item
 
 }
 
+nav .navbar-toggler
+{
+	border: none;
+	right: 40px;
+}
+
+nav .navbar-toggler:focus
+{
+	outline: none;
+/* 	-ms-transform: rotate(90deg);  
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);*/
+}
 
 
 .navbar .navbar-nav
