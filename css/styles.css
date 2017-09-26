@@ -31,7 +31,7 @@ body, .navbar-light {
 
 #sidebar {
 	padding-top: 0px;
-	padding-left: 40px;
+	padding-left: 0px; 
 	padding-right: 0px;
 
 }
@@ -40,17 +40,19 @@ body, .navbar-light {
 #sidebar .about
 {
 	position: relative;
-	top: -100px; 
+	top: -60px; 
 	z-index: -1;
 	min-height: 500px;
-	background-color: #D0D0D0;
-	background-image: url("../img/about-background-bottom@2x.jpg");
-	/* background-size: 253px 386px;*/
+	/*background-color: #D0D0D0;*/
+	background-image: url("../img/about-header@2x.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/* background-image: url("../img/about-background-bottom@2x.jpg");
 	background-position: bottom;
 	background-repeat: no-repeat;
 	margin-right: 47px;
 	margin-left: 10px;
-	max-width: 300px;
+	max-width: 300px; */
 
 }
 
