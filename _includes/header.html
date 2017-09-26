@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="{{ site.baseurl }}/bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.typekit.net/lib2baa.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>
+  
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          var $brand = $(".navbar-brand");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          $brand.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+
+        });
+      });
+
+</script>
   </head>
 
   <body>
