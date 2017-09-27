@@ -39,20 +39,21 @@ body, .navbar-light {
 {
 	position: relative;
 	top: -60px; 
-	background-image: url("../img/about-footer@2x.jpg"), url("../img/about-header@2x.jpg"), url("../img/about-fill@2x.jpg") ;
-	background-size: 100% auto, 100% auto, 100% auto;
-	background-repeat: no-repeat, no-repeat, repeat-y;
-	background-position: bottom, top, bottom;
+	background-image: url("../img/about-header@2x.jpg"), url("../img/about-fill@2x.jpg") ;
+	background-size: 100% auto, 100% auto;
+	background-repeat: no-repeat, repeat-y;
+	background-position: top, bottom;
 	padding-top: 105% !important;
 	padding-left: 22%;
 	padding-right: 22%;
-	padding-bottom: 80px;
+	padding-bottom: 20px;
+	
 }
 
 #sidebar .about p, #sidebar .subscribe p
 {
 	font-family: "open-sans","Open Sans";
-	font-size: .9rem !important;
+	font-size: 1rem !important;
 	text-align: center;
 }
 
@@ -60,11 +61,10 @@ body, .navbar-light {
 #sidebar .subscribe
 {
 	position: relative;
-	top: -100px;
-	z-index: -1;
+	top: -60px;
 	color: #FFF;
 	height: 500px;
-	background-image: url("../img/subscribe-footer@2x.jpg"), url("../img/subscribe-header@2x.jpg"), url("../img/subscribe-fill@2x.jpg") ;
+	background-image: url("../img/subscribe-footer@2x.jpg"), url("../img/subscribe-header-joined@2x.jpg"), url("../img/subscribe-fill@2x.jpg") ;
 	background-size: 100% auto, 100% auto, 100% auto;
 	background-repeat: no-repeat, no-repeat, repeat-y;
 	background-position: bottom, top, bottom;
