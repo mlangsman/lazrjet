@@ -54,6 +54,7 @@ body, .navbar-light {
 {
 	font-family: "open-sans","Open Sans";
 	font-size: 1rem !important;
+	font-weight: 100;
 	text-align: center;
 }
 
@@ -71,6 +72,11 @@ body, .navbar-light {
 	padding-left: 22%;
 	padding-right: 22%;
 	padding-bottom: 600px;
+}
+
+#sidebar .subscribe .subscribe-form
+{
+	margin-top: 35px;
 }
 
 #sidebar .subscribe h2
@@ -120,15 +126,49 @@ blockquote p {
 .btn-primary{
 	background-color: #D20298;
 	border-radius: 0;
-	border: none;
+	border: none !important;
+	border-color: black;
 	font-family: "atrament-web","atrament";
+	height: 44px;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
 }
+
+.btn-primary:hover
+{
+	background-color: #7A0158;
+	border-color: black;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+
+}
+
+.btn-primary:focus
+{
+	-webkit-box-shadow:none;
+	box-shadow:none;
+
+}
+
+.btn-primary:active
+{
+	border: none;
+	background-color: #FF03B7;
+
+}
+
+
 
 /* FORM ELEMENTS */
 
 input {
 	margin-bottom: 15px;
 	height: 44px;
+	border: none;
+	font-family: "atrament-web","atrament";
+	font-size: 1rem;
+	letter-spacing: 1px;
+	padding-left: 10px;
 }
 
 
