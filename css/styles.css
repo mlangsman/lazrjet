@@ -58,6 +58,12 @@ body, .navbar-light {
 	text-align: center;
 }
 
+@media (max-width: 767px) { 
+
+#sidebar .about p, #sidebar .subscribe p {font-size: 0.8rem !important;}
+
+ }
+
 
 #sidebar .subscribe
 {
