@@ -1,0 +1,19 @@
+<nav class="navbar navbar-toggleable-sm fixed-top navbar-light navbar-fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <img src="/img/lazrjet-brand@2x.png" width="162" height="79" alt="">
+  </a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+
+    {% for item in site.data.navigation.nav %}
+      <li class="nav-item">
+        <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,13 @@
+nav:
+
+- title: BLOG
+  url: /
+
+- title: MUSIC
+  url: /music.html
+
+- title: DESIGN
+  url: /design.html
+
+- title: ABOUT
+  url: /about.html
