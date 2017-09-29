@@ -96,6 +96,20 @@ body, .navbar-light {
 /* TYPOGRAPHY */
 
 
+a {
+	color: #D20298; 
+}
+
+a.nav-link
+{
+	color: rgba(0,0,0,.5);
+}
+
+a.nav-link.active
+{
+	color: black;
+}
+
 h1 {
   font-family: "atrament-web","atrament";
   font-size: 3rem;
@@ -250,6 +264,30 @@ nav .navbar-toggler:focus
 	box-shadow: 0px 6px 20px 0px rgba(36,36,36,0.06);
 
 }
+
+article .article-divider 
+{
+	margin-bottom: 70px;
+	margin-top: 50px;
+	font-family: "atrament-web","atrament";
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+}
+
+article .article-divider hr
+{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+
+
+article
+{
+
+
+}
+
 
 
 /* FOOTER */
