@@ -3,67 +3,60 @@ layout: default
 title: Lazrjet
 ---
 
-<nav class="navbar navbar-toggleable-md fixed-top navbar-light navbar-fixed-top">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">
-    <img src="/img/lazrjet-brand@2x.png" width="162" height="79" alt="">
-  </a>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Blog <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Music</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Design</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">About</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
 <div class="container-fluid" id="main-container">
 
 	<div class="row">
 		<div class="col-sm-8" id="primary-column">
 	  
-			<div class="post">
+	   {% for post in site.posts %}
+			<article class="post">
 				<div class="post-header">
-					<h1>Andisi odit abo con perest volorerum</h1>
-			  		<span class="date">12th September</span>
-					<img class="img-fluid" src="{{ site.baseurl }}/img/post-image-example.jpg" />
+					<h1>{{ post.title }}</h1>
+			  		<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+					<!-- <img class="img-fluid" src="{{ site.baseurl }}/img/post-image-example.jpg" /> -->
+					<img class="img-fluid" src="/assets/{{ post.image }}" />
+					
 				</div>
 
+				{{post.content}}
+
+<!--
 				<p>Remperiam qui idi cum quis inus moluptur sumquas mossed esciene ex enis quidipsam nonet eiumquis et voluptur miliquunt modis ut fugiam aut odis dolorat istotatur? Otatem nonseque pre cum quis pereper fersper ectet, sit, int officae presequae. Od ea aspitas imus, velictur re volupit atendant faces dia sandi quiaepe rchillorum iducia iduciistis am, sum explant.</p>
 				<blockquote class="blockquote">
   					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
 				</blockquote>
 				<p>imperrum re est pra pore volum quas quodi asi dolorum ent, sim sequas estorer feribus renienis dolupta apiciunti tor autet ut haribus que opta dest eum simos digendestius et eat. El idit adi reribus molesequi cus, cumquiducia nisimin veritatempor aborestias mint asi velit quia volupti beatiusa natur ate ipit lab iusae. Nam fugiasit proribus et moditia qui in niscilia sit am is nis doluptat as doloraero ius aspero maximin imperum nos volupta dolore, ipsam venditate intium latur magni opti reribus cimosam usapid et auda escim quiam re veliquo in eos nihictu renditem faccullore con es doloreptate volendis il es et aceroviti acculle nistiuntur rest plam venest, suntemporest quam ut pla aut entionem qui cullatiur, conempo receate mporati oraepernam quam et moditaecabo. Et fugitas dundit etur? Quid qui aliquam ipist volorro te prem isti dolesti desed qui idesti offictiisti voluptate et verro dem deratis simagnis ped es repreici is corae con re volestibus.</p>
-			</div> <!-- /post -->
-	  
+
+			-->
+			<div class="article-divider" />
+			<hr />
+				<a href="/">PERMALINK</a>
+
+				
+			</div>
+			</article> <!-- /post -->
+	 
+		{% endfor %}
+
 		</div>
 	  
 
 
 		<div class="col-sm-4" id="sidebar">
-				<div class="avatar-container">
-						<img class="avatar-image" src="{{ site.baseurl }}/img/avatar-no-shadow@2x.png"/>
-				</div>
 
 			<div class="about">
-
-
-
-
+				<p>Marc Langsman (@lazrjet) is a designer and electronic music producer living near&nbsp;London</p>
 			</div> <!-- /about -->
 
+			<div class="subscribe">
+				<h2>SUBSCRIBE</h2>
+				<p>Look good and sound great with fresh music, design and creative inspiration to jazz up your&nbsp;inbox.</p>
+				<form  class="subscribe-form justify-content-center d-flex flex-column">
+					<input type="text" placeholder="Your Name" name="name" />
+					<input type="text" placeholder="Your Email" name="email" />
+					<button type="button" class="btn btn-primary">SUBSCRIBE</button>
+				</form>
+			</div>
 		</div>
 	</div> <!-- /row -->
 
