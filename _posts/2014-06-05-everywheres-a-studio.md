@@ -73,6 +73,6 @@ This isn't the end of the world, especially for tasks like arranging but becau
 
 &nbsp;
 
-<a href="http://lazrjet.com/wp-content/uploads/2014/06/etymotic.jpg"><img class="img-fluid" src="http://lazrjet.com/wp-content/uploads/2014/06/etymotic.jpg" alt="Etymotic Earphones" /></a>
+<a href="http://lazrjet.com/wp-content/uploads/2014/06/etymotic.jpg"><img class="img-fluid" src="http://lazrjet.com/wp-content/uploads/2014/06/etymotic.jpg" alt="Etymotic Earphones"   /></a>
 
 &nbsp;
