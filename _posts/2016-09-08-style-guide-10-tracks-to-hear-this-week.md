@@ -28,7 +28,7 @@ format: image
 ---
 Finding great music when there's so much choice now can be tough. As part of my creative process I sift through hundreds of tracks a week and keep note of the ones that inspire me.
 
-I thought it would be cool to share the ten best tracks I find, that I think you'll enjoy in a new playlist called Style Guide which I'll be updating every week.
+I thought it would be cool to share the ten best tracks I find, that I think you'll enjoy in a new playlist called Style Guide.
 
 You can play this below or <a href="spotify:user:lazrjet:playlist:2vF5SAYynIaOFZq2H8oM44">follow the playlist</a> on Spotify
 
