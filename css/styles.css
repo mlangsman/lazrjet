@@ -100,6 +100,12 @@ a {
 	color: #D20298; 
 }
 
+a:hover
+{
+	color: #D20298;
+	text-decoration: underline;
+}
+
 a.nav-link
 {
 	color: rgba(0,0,0,.5);
@@ -115,6 +121,20 @@ h1 {
   font-size: 3rem;
   margin-bottom: 0;
 }
+
+article h1 a
+{
+	color: #343434;
+}
+
+article h1 a:hover
+{
+	color: #D20298;
+	text-decoration: none;
+
+}
+
+
 
 h2, h3 {
 	font-family: "atrament-web","atrament";
