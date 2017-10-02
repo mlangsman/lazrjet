@@ -1,36 +1,26 @@
----
-layout: default
-title: Lazrjet
----
 
-<div class="container-fluid" id="main-container">
+	{% include header.html %}
+
+  	{% include nav.html %}
+
+  	<div class="container-fluid" id="main-container">
 
 	<div class="row">
 		<div class="col-sm-8" id="primary-column">
-	  
-	   {% for post in site.posts %}
-			<article class="post">
+
+				<article class="post">
 				<div class="post-header">
-					<h1>{{ post.title }}</h1>
-			  		<div class="date">{{ post.date | date: '%B %d, %Y' }}</div>
-					<!-- <img class="img-fluid" src="{{ site.baseurl }}/img/post-image-example.jpg" /> -->
-					<img class="img-fluid" src="{{ site.baseurl }}/assets/{{ post.image }}" />
+					<h1>{{ page.title }}</h1>
+			  		<div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
+					<img class="img-fluid" src="{{ site.baseurl }}/assets/{{ page.image }}" />
 					
 				</div>
 
-				{{post.content}}
+				{{ content }}
 
-			<div class="article-divider" />
-			<hr />
-				<a href="{{ site.baseurl}}{{ post.url }}">PERMALINK</a>
-
-				
-			</div>
 			</article> <!-- /post -->
-	 
-		{% endfor %}
 
-		</div>
+	</div>
 	  
 
 
@@ -54,4 +44,6 @@ title: Lazrjet
 
 </div>
 
+
+	{% include footer.html %}
 
