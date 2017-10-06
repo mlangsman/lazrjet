@@ -1,34 +1,35 @@
 ---
 layout: default
-title: Lazrjet
+title: Lazrjet | Music
 ---
 
 <div class="container-fluid" id="main-container">
 
 	<div class="row">
 		<div class="col-sm-8" id="primary-column">
-	  
-	   {% for post in site.posts %}
-			<article class="post">
-				<div class="post-header">
-					<h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
-			  		<div class="date">{{ post.date | date: '%B %d, %Y' }}</div>
-					<!-- <img class="img-fluid" src="{{ site.baseurl }}/img/post-image-example.jpg" /> -->
-					<img class="img-fluid" src="{{ site.baseurl }}/assets/{{ post.image }}" />
-					
+
+			 <h1 class="mb-5">Music</h1>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-fluid" src="{{ site.baseurl }}/img/album-art-example.jpg" />
+					<h2>Release name</h2>
+					<p> Lorem ipsum</p>
+				</div>
+				<div class="col-sm-6"><img class="img-fluid" src="{{ site.baseurl }}/img/album-art-example.jpg" />
+					<h2>Release name</h2>
+					<p> Lorem ipsum</p></div>
 				</div>
 
-				{{post.content}}
-
-			<div class="article-divider" />
-			<hr />
-				<a href="{{ site.baseurl }}{{ post.url }}">PERMALINK</a>
-
-				
+			<div class="row">
+				<div class="col-sm-6"><img class="img-fluid" src="{{ site.baseurl }}/img/album-art-example.jpg" />
+					<h2>Release name</h2>
+					<p> Lorem ipsum</p>
+				</div>
+				<div class="col-sm-6"><img class="img-fluid" src="{{ site.baseurl }}/img/album-art-example.jpg" />
+					<h2>Release name</h2>
+					<p> Lorem ipsum</p>
+				</div>
 			</div>
-			</article> <!-- /post -->
-	 
-		{% endfor %}
 
 		</div>
 	  
