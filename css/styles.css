@@ -3,7 +3,7 @@ body, .navbar-light {
 	color: #343434 !important;
 }
 
-.post-header img {
+.post-header img, .post-header .soundcloud {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -122,18 +122,22 @@ h1 {
   margin-bottom: 0;
 }
 
-article h1 a
+article h1 a, .release-detail h2 a
 {
 	color: #343434;
 }
 
-article h1 a:hover
+article h1 a:hover, .release-detail h2 a:hover
 {
 	color: #D20298;
 	text-decoration: none;
 
 }
 
+.release-detail img
+{
+	margin-bottom: 10px;
+}
 
 
 h2, h3 {
