@@ -6,21 +6,8 @@ author: Lazrjet
 layout: post
 guid: http://lazrjet.com/?p=24
 permalink: /sample-some-inspiration/
-tz_audio_format:
-  - mp3
-tz_gallery_format:
-  - -=set slideshow type=-
-tz_gallery_targetheight:
-  - "200"
-tz_gallery_margins:
-  - "10"
-tz_gallery_randomize:
-  - 'false'
-tz_gallery_captions:
-  - 'true'
 image: /wp-content/uploads/2014/06/dj-shadow-920x600.jpg
-categories:
-  - Blog
+categories: blog
 format: image
 ---
 I've always been inspired by the use of sampling in music especially folk like The Avalanches and DJ Shadow. It's not always obvious that plenty of dance music is heavily built around samples, but a quick shufty on <a title="WhoSampled" href="http://whosampled.com" target="_blank">WhoSampled</a> is amazingly enlightening.

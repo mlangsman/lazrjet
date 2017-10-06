@@ -6,22 +6,8 @@ author: Lazrjet
 layout: post
 guid: http://lazrjet.com/?p=316
 permalink: /who-are-you-meant-to-be/
-tz_audio_format:
-  - mp3
-tz_gallery_format:
-  - -=set slideshow type=-
-tz_gallery_targetheight:
-  - "200"
-tz_gallery_margins:
-  - "10"
-tz_gallery_randomize:
-  - 'false'
-tz_gallery_captions:
-  - 'true'
 image: /wp-content/uploads/2014/06/gaping-void.jpg
-categories:
-  - Blog
-  - Uncategorized
+categories: blog
 format: image
 ---
 I love this drawing from one of my favourite cartoonists <a title="@GapingVoid" href="http://www.gapingvoidart.com/" target="_blank">@GapingVoid</a>. It sums up exactly why I left the banking industry many years ago and ended up making tea in a recording studio. As <a title="Hegarty on Creativity" href="http://www.amazon.co.uk/Hegarty-Creativity-There-are-Rules/dp/050051724X" target="_blank">John Hegarty</a> says:

@@ -20,8 +20,7 @@ tz_gallery_randomize:
 tz_gallery_captions:
   - 'true'
 image: /wp-content/uploads/2014/07/wpid-img_20140710_113459-e1404989609437.jpg
-categories:
-  - Uncategorized
+categories: blog
 format: image
 ---
 Most of the time, my day job in the music industry feels like a regular job. Then I get to do something totally mind-blowing like listening to a remastering of The Beatles at Abbey Road!

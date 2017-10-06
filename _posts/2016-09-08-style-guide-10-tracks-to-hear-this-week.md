@@ -22,8 +22,7 @@ tz_gallery_randomize:
 tz_gallery_captions:
   - 'true'
 image: /wp-content/uploads/2016/09/Record.jpeg
-categories:
-  - Blog
+categories: blog
 format: image
 ---
 Finding great music when there's so much choice now can be tough. As part of my creative process I sift through hundreds of tracks a week and keep note of the ones that inspire me.

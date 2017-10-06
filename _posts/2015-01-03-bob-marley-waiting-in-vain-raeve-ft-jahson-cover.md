@@ -22,8 +22,7 @@ tz_gallery_captions:
 tz_gallery_how_many_set:
   - "-1"
 image: /wp-content/uploads/2015/01/Tropical.png
-categories:
-  - Uncategorized
+categories: blog
 ---
 [soundcloud url="https://api.soundcloud.com/tracks/160975559" params="auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false" width="100%" iframe="true" /]
 

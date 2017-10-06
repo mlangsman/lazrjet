@@ -24,9 +24,7 @@ tz_gallery_captions:
 tz_audio_embed:
   - '&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281956667&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;'
 image: /wp-content/uploads/2016/09/Cruel-Summer.jpg
-categories:
-  - Blog
-  - Remixes
+categories: blog
 format: audio
 ---
 My latest remix is a fresh take on 90s classic Cruel Summer by Ace of Base. You can find <a href="http://www.acapellas4u.co.uk/">acapellas for almost any track</a> online nowadays and there's something I find strangely enticing about giving those guilty pleasures a bit of overhaul.

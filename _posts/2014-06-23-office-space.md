@@ -20,9 +20,7 @@ tz_gallery_randomize:
 tz_gallery_captions:
   - 'true'
 image: /wp-content/uploads/2014/06/wpid-img_20140623_1259552.jpg.jpeg
-categories:
-  - Blog
-  - Uncategorized
+categories: blog
 format: image
 ---
 Spending all day at the office responding to emails without any time to make music can feel like emptying the sink and watching your soul disappear down the plughole. Fortunately I find it's always possible to carve out a slice of creative time somewhere....

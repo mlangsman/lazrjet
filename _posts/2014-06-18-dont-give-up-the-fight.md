@@ -1,29 +1,12 @@
 ---
-id: 277
 title: 'Don&#8217;t give up the fight'
 date: 2014-06-18T20:41:56+00:00
 author: Lazrjet
 excerpt: "After many years of plugging away at making music I've had a remix released on a major label. These are some useful insights I discovered..."
 layout: post
-guid: http://lazrjet.com/?p=277
 permalink: /dont-give-up-the-fight/
-tz_audio_format:
-  - mp3
-tz_gallery_format:
-  - -=set slideshow type=-
-tz_gallery_targetheight:
-  - "200"
-tz_gallery_margins:
-  - "10"
-tz_gallery_randomize:
-  - 'false'
-tz_gallery_captions:
-  - 'true'
-tz_audio_embed:
-  - '&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156390746&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;'
 image: /wp-content/uploads/2014/06/bo-saris-front.jpg
-categories:
-  - Blog
+categories: blog
 format: audio
 ---
 After many years of plugging away at making music I've finally had a remix released on a major label. This is really exciting news for me, however what's been a real insight is that it took about a year from when I submitted it to when it actually got signed.

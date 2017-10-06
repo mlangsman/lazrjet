@@ -21,8 +21,7 @@ tz_gallery_captions:
   - 'true'
 tz_video_embed:
   - http://vimeo.com/98325979
-categories:
-  - Uncategorized
+categories: blog
 format: video
 ---
 The Creative Class is a series of interviews with renowned creatives about their take on digital technology - interesting stuff.

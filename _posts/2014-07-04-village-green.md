@@ -22,8 +22,7 @@ tz_gallery_randomize:
 tz_gallery_captions:
   - 'true'
 image: /wp-content/uploads/2014/07/village_green.png
-categories:
-  - Blog
+categories: blog
 format: audio
 ---
 At the end of last year my wife and I made the decision to quit the big smoke and move out of London to leafy Hertfordshire. As my current job is based in town, I was pretty freaked out about becoming a commuter and living out in the sticks.

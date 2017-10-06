@@ -22,8 +22,7 @@ tz_gallery_captions:
 tz_gallery_how_many_set:
   - "-1"
 image: /wp-content/uploads/2015/01/Poolside.jpg
-categories:
-  - Uncategorized
+categories: blog
 ---
 I recently delved in to Spotify's <a title="Spotify - Year in Music" href="https://www.spotify-yearinmusic.com/" target="_blank">'Your Year in Music'</a> which surfaces the tracks, artists and genres you've been listening to the most. I highly recommend checking this out as it's a real eye opener on your listening habits.
 
