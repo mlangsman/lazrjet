@@ -169,7 +169,7 @@ blockquote p {
 /* BUTTONS */
 
 
-.btn-primary{
+.btn-primary, input[type=submit]{
 	background-color: #D20298;
 	border-radius: 0;
 	border: none !important;
@@ -180,7 +180,7 @@ blockquote p {
 	font-size: 1.2rem;
 }
 
-.btn-primary:hover
+.btn-primary:hover, input[type=submit]:hover
 {
 	background-color: #7A0158;
 	border-color: black;
@@ -189,14 +189,14 @@ blockquote p {
 
 }
 
-.btn-primary:focus
+.btn-primary:focus, input[type=submit]:focus
 {
 	-webkit-box-shadow:none;
 	box-shadow:none;
 
 }
 
-.btn-primary:active
+.btn-primary:active, input[type=submit]:active
 {
 	border: none;
 	background-color: #FF03B7;
