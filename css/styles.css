@@ -139,6 +139,17 @@ article h1 a:hover, .release-detail h2 a:hover
 	margin-bottom: 10px;
 }
 
+img.desaturate {
+	filter: opacity(20%);
+	transition: filter 0.8s;
+}
+
+img.desaturate:hover {
+	/* filter: grayscale(0%);*/
+	filter: opacity(100%);
+	transition: filter 0.01s;
+}
+
 
 h2, h3 {
 	font-family: "atrament-web","atrament";
@@ -149,6 +160,7 @@ p, article ul, article li{
 	font-family: "open-sans","Open Sans";
 	font-size: 1.125rem;
 }
+
 
 
 
