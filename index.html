@@ -14,8 +14,17 @@ title: Lazrjet
 					<h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
 			  		<!--<div class="date">{{ post.date | date: '%B %d, %Y' }}</div> -->
 					<!-- <img class="img-fluid" src="{{ site.baseurl }}/img/post-image-example.jpg" /> -->
+
+					{% if post.youtube %}
+
+					<iframe class="youtube" src="https://www.youtube.com/embed/{{ post.youtube }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+					{% else %}
+
 					<img class="img-fluid" src="{{ site.baseurl }}/assets/{{ post.image }}" />
 					
+					{% endif %}
+
 				</div>
 
 				{{post.content}}
