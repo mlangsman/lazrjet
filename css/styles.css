@@ -140,15 +140,20 @@ article h1 a:hover, .release-detail h2 a:hover
 	margin-bottom: 10px;
 }
 
+.release-detail 
+{
+	margin-bottom: 50px;
+}
+
 img.desaturate {
-	filter: opacity(20%);
-	transition: filter 0.8s;
+	/* filter: opacity(20%); */
+	transition: 0.3s ease;
 }
 
 img.desaturate:hover {
 	/* filter: grayscale(0%);*/
+	transform: scale(.9, .9); 
 	filter: opacity(100%);
-	transition: filter 0.01s;
 }
 
 
